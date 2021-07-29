@@ -1,0 +1,43 @@
+
+body {
+  text-align: center;
+  color: #fff;
+  background-image: url(./bg-short-form.jpg);
+}
+input {
+  background-image: url(./bg-short-form.jpg);
+}
+::placeholder {
+  color: blue;
+}
+#form {
+  width: 60%;
+  text-decoration: solid;
+  margin: 0 auto;
+}
+#name {
+  width: 35%;
+  padding: 10px;
+}
+#email {
+  width: 35%;
+  padding: 10px;
+}
+#password {
+  width: 35%;
+  padding: 10px;
+}
+label {
+  text-align: left;
+}
+h2 {
+  text-transform: capitalize;
+}
+#button {
+  background-image: url(./bg-short-form.jpg);
+  color: white;
+}
+#textarea {
+  width: 37%;
+  background-image: url(./bg-short-form.jpg);
+}

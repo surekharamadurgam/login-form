@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form in html </title>
+  
+    <link rel="stylesheet" href="./form.css">
+    
+</head>
+<body>
+    <h2> registration form </h2>
+    <form id="form">
+        <fieldset>
+       <legend>user personal information</legend>
+       <br>
+       <div>
+       <label> enter your full name</label>
+       <br>
+       <input type="text" name="name" id="name" placeholder="enter your name" required>
+       <br>
+       <label> enter your mailid</label>
+       <br>
+       <input type="email" name="email" id="email" placeholder="enter your emailid" required>
+       <br>
+       <label>enter your password</label> 
+       <br>
+       <input type="password" name="password" id="password" placeholder="enter your password "required>
+       <br>
+       <label>conform your password</label> 
+       <br>
+       <input type="password" name="password" id="password" placeholder="conform your password" required> 
+       <br>
+       <!-- <label>enter your gender </label>
+       <br>
+       <input type="radio" name="gender" id="gender" value="male" required> male   
+       <br> 
+       <input type="radio" name="gender" id="gender" value="female" required>female
+       <br>
+       <input type="radio" name="gender" id="gender" value="others" required>others
+       <br> -->
+       <label>enter your address</label>
+       <br>
+       <textarea name="textarea" id="textarea" placeholder="enter your address" cols="30" rows="4"></textarea>
+       <br>
+       <button id="button">sign-up</button>
+       <br>
+    </div>
+    </fieldset>
+    </form>
+</body>
+</html>
